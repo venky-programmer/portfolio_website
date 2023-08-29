@@ -56,6 +56,10 @@
   color: green;
 }
 
+.hstack {
+  justify-content: end;
+}
+
 @media (max-width: 767px) {
   .header #typing-text {
     font-size: 40px;
@@ -68,5 +72,20 @@
   }
   .about-content {
     flex-direction: column;
+  }
+  .flex-container {
+    display: flex;
+    flex-direction: row; /* This is the default direction, but you can adjust it if needed. */
+  }
+  .colz {
+    flex-direction: column-reverse;
+    text-align: center;
+    row-gap: 20px;
+  }
+  .hstack {
+    justify-content: center;
+  }
+  .center {
+    text-align: center;
   }
 }
